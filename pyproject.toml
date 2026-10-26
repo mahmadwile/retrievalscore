@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mahmadwile-retrievalscore"
+version = "0.1.0"
+description = "按查询词覆盖、来源可信度与新鲜度给检索结果打分，输出每一项的得分构成。"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { file = "LICENSE" }
+authors = [{ name = "mahmadwile" }]
+keywords = ["retrieval", "rag", "ranking", "cli"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities",
+]
+
+[project.urls]
+Homepage = "https://mahmadwile.github.io"
+Repository = "https://github.com/mahmadwile/retrievalscore"
+Issues = "https://github.com/mahmadwile/retrievalscore/issues"
+
+[project.scripts]
+retrievalscore = "retrievalscore:main"
+
+[tool.setuptools]
+py-modules = ["retrievalscore"]
