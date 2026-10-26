@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+retrievalscore.py
+mahmadwile_retrievalscore.egg-info/PKG-INFO
+mahmadwile_retrievalscore.egg-info/SOURCES.txt
+mahmadwile_retrievalscore.egg-info/dependency_links.txt
+mahmadwile_retrievalscore.egg-info/entry_points.txt
+mahmadwile_retrievalscore.egg-info/top_level.txt
